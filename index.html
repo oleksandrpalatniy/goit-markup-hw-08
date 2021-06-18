@@ -52,17 +52,37 @@
             </a>
         </li>
     </ul>
+    <!-- Кнопка "бургер" -->
+    <button type="button" class="header__mobile-menu-btn" data-menu-button>
+        <svg class="header__mobile-menu-icon">
+            <use href="./images/icons.svg#burger-menu"></use> 
+        </svg>
+    </button>
     </div>
+    <div class="mobile-menu" data-menu>
+        <div class="mobile-menu__container">
+            <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                <svg class="modal__close-btn-icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu__nav list">
+                <li class="mobile-menu__item"><a href="" class="mobile-menu__link link">link-1</a></li>
+                <li class="mobile-menu__item"><a href="" class="mobile-menu__link link">link-2</a></li>
+                <li class="mobile-menu__item"><a href="" class="mobile-menu__link link">link-3</a></li>
+                <li class="mobile-menu__item"><a href="" class="mobile-menu__link link">link-4</a></li>
+            </ul>
+        </div>
     </header>   
 <!-- HERO -->
-    <main>
+    <!-- <main>
         <section class="hero__section">
             <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1> 
             <button class="hero__modal-btn" type="button" data-modal-open>Заказать услугу</button>
-        </section>
+        </section> -->
       
 <!-- ABOUT -->
-        <section class="about">
+        <!-- <section class="about">
             <div class="about__container container">
             <h2 class="about__title" hidden>Наши преимущества</h2>
             <ul class="about__list list">
@@ -105,10 +125,10 @@
             </ul>
             </div>
           </section>
-        
+         -->
 <!-- Section What we do -->
       
-        <section class="whatwedo__section">
+        <!-- <section class="whatwedo__section">
            <div class="container">
             <h2 class="section-suptitle">Чем мы занимаемся</h2>
             <ul class="whatwedo__section-list list">
@@ -127,9 +147,9 @@
             </ul>
            </div>
         </section>
-        
+         -->
 
-        <section class="ourteam">
+        <!-- <section class="ourteam">
             <div class="ourteam__main container">
             <h2 class="ourteam__suptitle section-suptitle">Наша команда</h2>
             <ul class="ourteam__list list">
@@ -283,9 +303,9 @@
                 </li>
             </ul>
             </div>
-        </section>
+        </section> -->
 <!-- Our clients -->
-        <section class="our-clients">
+        <!-- <section class="our-clients">
             <div class="container">
                 <h2 class="section-suptitle">Постоянные клиенты</h2>
                 <ul class="our-clients__list list">
@@ -333,11 +353,11 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
 
     </main>
 
-    <footer class="footers">
+    <!-- <footer class="footers">
         <div class="footer__all-section">
         <div class="footers__section">
         <a class="header__logo link" href="./index.html">
@@ -399,7 +419,7 @@
         <button type="submit" class="footer__form-field-subscribe-btn">Подписаться</button>
         </form>
         </div>
-    </footer>
+    </footer> -->
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -451,7 +471,7 @@
             </form>
         </div>
     </div>
-
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
