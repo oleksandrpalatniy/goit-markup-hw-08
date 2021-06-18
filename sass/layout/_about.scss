@@ -1,0 +1,46 @@
+.about {
+  padding-top: 94px;
+}
+.about__list {
+  display: flex;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.about__list-item {
+  flex-basis: calc((100% - 120px) / 4);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.about__list-suptitle {
+  @include font(14px, 700, 18px, 0.03em);
+  // передивитись в макеті значенння line-height в пікселях
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.about__list-text {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.about__list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-icon-btn-color);
+  border-radius: 4px;
+}
+.about__list-item-icon {
+  width: 70px;
+  height: 70px;
+}
