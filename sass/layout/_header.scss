@@ -52,7 +52,21 @@
     fill: var(--accent-color);
   }
 }
+
 @media screen and (max-width: 767px) {
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    overflow: auto;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
   .header__mobile-menu-btn {
     display: block;
   }
@@ -65,6 +79,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
   .header__container {
     width: 768px;
     margin: 0 auto;

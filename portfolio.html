@@ -52,12 +52,64 @@
                 </a>
             </li>
         </ul>
+        <!-- Кнопка "бургер" -->
+        <button type="button" class="header__mobile-menu-btn" data-menu-button>
+            <svg class="header__mobile-menu-icon">
+                <use href="./images/icons.svg#burger-menu"></use>
+            </svg>
+        </button>
+    </div>
+    <div class="mobile-menu" data-menu>
+        <div class="mobile-menu__container">
+            <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                <svg class="modal__close-btn-icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu__link-list list">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link link" href="./index.html">Студия</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link link phone-current" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link link" href="">Контакты</a>
+                </li>
+            </ul>
+            <ul class="mobile-menu__list list">
+                <li class="mobile-menu__contacts-item link">
+                    <a class="mobile-menu__contacts-link-phone link" href="tel:+380961111111">
+                        +38 096 111 11 11
+                    </a>
+                </li>
+                <li class="mobile-menu__contacts-item">
+                    <a class="mobile-menu__contacts-link-mail link" href="mailto:info@devstudio.com">
+                        info@devstudio.com
+                    </a>
+                </li>
+            </ul>
+            <ul class="mobile-menu__social-list list">
+                <li class="mobile-menu__social-item">
+                    <a class="mobile-menu__social-link link" href="#">Instagram</a>
+                </li>
+                <li class="mobile-menu__social-item">
+                    <a class="mobile-menu__social-link link" href="#">Twitter</a>
+                </li>
+                <li class="mobile-menu__social-item">
+                    <a class="mobile-menu__social-link link" href="#">Facebook</a>
+                </li>
+                <li class="mobile-menu__social-item">
+                    <a class="mobile-menu__social-link link" href="#">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </header>
 
     <main>
         <!-- <section class="portfolio-presentation"> -->
-    <section class="portfolio__presentation">
+    <!-- <section class="portfolio__presentation">
         <div class="portfolio__box container">
             <h1 hidden>Наши работы</h1>
             <ul class="portfolio__menu list">
@@ -76,12 +128,12 @@
                 <li class="porfolio__menu-item">
                     <button class="modal-btn" type="button">Маркетинг</button>
                 </li>
-            </ul>
+            </ul> -->
         
        
      
             
-            <ul class="porfolio__list list">
+            <!-- <ul class="porfolio__list list">
                 <li class="portfolio__list-item">
                     <a href="" class="porfolio__list-item-block link">
                     <div class="portfolio__list-item-wrapper">
@@ -210,7 +262,7 @@
                 </li>
             </ul>
         </div>
-        </section>
+        </section> -->
     </main> 
 
 <footer class="footers">
@@ -279,7 +331,7 @@
         </form>
     </div>
 </footer>
-
+<script src="./js/menu.js"></script>
 </body>
 
 </html>
