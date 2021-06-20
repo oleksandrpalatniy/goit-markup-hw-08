@@ -92,7 +92,7 @@
   }
   .menu {
     display: flex;
-    margin-left: 93px;
+    margin-left: 88px;
   }
   .menu__item {
     position: relative;
@@ -119,9 +119,9 @@
       color: var(--accent-color);
     }
   }
-  .contacts__list {
-    margin-left: 84px;
-  }
+  // .contacts__list {
+  //   margin-right: 15px;
+  // }
   .contacts__item-mail {
     margin-bottom: 10px;
   }
