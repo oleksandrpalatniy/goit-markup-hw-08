@@ -2,10 +2,13 @@
   border-bottom: 1px solid #ececec;
   padding-left: 15px;
   padding-right: 15px;
+
   &__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
   &__logo {
     font-family: var(--secondary-font);
@@ -85,6 +88,8 @@
   .header__container {
     width: 768px;
     margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .header__navigation {
     display: flex;
@@ -141,6 +146,9 @@
   }
   .contacts__item-phone {
     margin-left: 30px;
+  }
+  .contacts__item-mail {
+    margin: 0;
   }
 }
 

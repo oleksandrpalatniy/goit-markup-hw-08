@@ -6,7 +6,7 @@
 // // 480+
 @media screen and (min-width: 480px) {
   .container {
-    width: 450px;
+    width: 480px;
     margin: 0 auto;
   }
 }
@@ -21,16 +21,6 @@
 // // 1200+
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1200px;
   }
-}
-
-.section-suptitle {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-  margin-bottom: 50px;
 }
