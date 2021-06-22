@@ -180,6 +180,7 @@ body {
     visibility: hidden;
     pointer-events: none;
     font-weight: 500;
+    z-index: 1;
   }
   .mobile-menu__container {
     position: relative;
@@ -707,6 +708,7 @@ body {
   .ourteam {
     padding-bottom: 94px;
     padding-top: 94px;
+    margin-top: 0;
   }
   .ourteam__list-photo {
     width: 270px;
@@ -790,6 +792,10 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  .our-clients {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
   .our-clients__list-link {
     width: 170px;
   }
@@ -1178,10 +1184,7 @@ footer .social-list-link {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-}
-
-.porfolio__menu-item {
-  padding-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .porfolio__menu-item:not(:last-child) {
@@ -1190,7 +1193,11 @@ footer .social-list-link {
 
 .portfolio__presentation {
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+}
+
+.portfolio__list-item-img {
+  width: 450px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1205,8 +1212,18 @@ footer .social-list-link {
   }
 }
 
-.portfolio__list-item-img {
-  width: 450px;
+@media screen and (min-width: 1200px) {
+  .portfolio__list-item-img {
+    width: 370px;
+  }
+  .portfolio__presentation {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.porfolio__menu-item:nth-child(-n + 2) {
+  margin-bottom: 15px;
 }
 
 .porfolio__list {
