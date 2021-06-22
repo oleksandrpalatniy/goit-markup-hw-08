@@ -19,7 +19,6 @@
       position: relative;
       padding-top: 48px;
       padding-bottom: 48px;
-      padding-left: 40px;
     }
 
     &__close-btn {
@@ -32,7 +31,8 @@
       background-color: transparent;
       padding: 0;
 
-      &:focus .modal__close-btn-icon {
+      &:focus .modal__close-btn-icon,
+      &:hover .modal__close-btn-icon {
         fill: var(--accent-color);
       }
     }
@@ -90,6 +90,10 @@
   }
   .phone-current {
     color: var(--accent-color);
+  }
+  .mobile-menu__close-btn .modal__close-btn-icon {
+    width: 40px;
+    height: 40px;
   }
 }
 
