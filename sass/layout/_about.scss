@@ -73,7 +73,7 @@
 //   background-color: var(--background-icon-btn-color);
 //   border-radius: 4px;
 // }
-.about__list-item {
+.about__list-item:not(:first-child) {
   margin-top: 30px;
 }
 .about__list-item-icon {
